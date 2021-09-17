@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: rgba(20, 19, 19);
+    height: 150px;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.logo{
+    color: white;
+    font-size: 70px;
+}
+
+
+nav li{
+    display:inline-block;
+}
+
+nav li a{
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+    padding: 10px 10px 0 0;
+    text-decoration: none;
+}
+
+
+
+nav li a:hover {
+    color: rgb(233, 233, 44);
+}
+
+.big-box{
+    color: wheat;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(51, 34, 34);
+    height: 500px;
+   
+    text-align: center;
+
+}
+.big-box img{
+    width: 80%;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+
+
+.box1{
+  
+    margin: 20px;
+    width: 50%;
+}
+.box2{
+   
+    margin: 20px;
+    width: 45%;
+}
+
+/* --------------big - box 2---------------------------  */
+
+.big-box2{
+    color: wheat;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(51, 34, 34);
+    height: 500px;
+    
+    text-align: center;
+
+}
+.big-box2 img{
+    width: 80%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.box3{
+   
+    margin: 20px;
+    width: 50%;
+}
+.box4{
+   
+    margin: 20px;
+    width: 45%;
+}    
+
+/* -------------------------------------------------  */
